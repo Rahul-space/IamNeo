@@ -45,6 +45,8 @@ router.get("/find/:id", async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+// GET RANDOM
 router.get("/random", async (req, res) => {
   let movie;
   try {
