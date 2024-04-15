@@ -10,7 +10,7 @@ app.use(cors({credentials: true, origin: '*'}));
 dotenv.config();
 
 mongoose
-  .connect("mongodb+srv://Rahul:21022003@cluster0.tvmai5q.mongodb.net/?retryWrites=true&w=majority", {
+  .connect("connection string", {
   })
   .then(() => console.log("DB Connection Successfull"))
   .catch((err) => {
